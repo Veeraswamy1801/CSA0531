@@ -1,0 +1,5 @@
+SELECT * FROM Student
+WHERE Marks > 80;
+
+SELECT * FROM Student
+WHERE Name LIKE 'R%';
