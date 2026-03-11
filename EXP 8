@@ -1,0 +1,7 @@
+SELECT * FROM Student
+WHERE Marks BETWEEN 80 AND 95;
+
+SELECT * FROM Student
+WHERE City IN ('Chennai','Delhi');
+
+SELECT AVG(Marks) FROM Student;
