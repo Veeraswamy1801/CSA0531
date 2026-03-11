@@ -1,0 +1,3 @@
+GRANT SELECT, INSERT ON Student TO user1;
+
+REVOKE INSERT ON Student FROM user1;
