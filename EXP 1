@@ -1,0 +1,11 @@
+CREATE TABLE Student(
+    ID INT,
+    Name VARCHAR(50),
+    Age INT
+);
+
+ALTER TABLE Student ADD City VARCHAR(50);
+
+TRUNCATE TABLE Student;
+
+DROP TABLE Student;
