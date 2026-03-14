@@ -1,0 +1,5 @@
+CREATE VIEW Student_View AS
+SELECT Name, Marks FROM Student;
+
+CREATE INDEX idx_marks
+ON Student(Marks);
