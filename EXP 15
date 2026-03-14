@@ -1,0 +1,7 @@
+SELECT Name,
+CASE
+WHEN Marks >=90 THEN 'A'
+WHEN Marks >=75 THEN 'B'
+ELSE 'C'
+END AS Grade
+FROM Student;
