@@ -1,0 +1,5 @@
+CREATE TRIGGER student_insert
+BEFORE INSERT
+ON Student
+FOR EACH ROW
+SET NEW.Marks = IFNULL(NEW.Marks,0);
