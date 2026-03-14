@@ -1,0 +1,4 @@
+SELECT S.Name, C.CourseName
+FROM Student S
+INNER JOIN Course C
+ON S.ID = C.StudentID;
