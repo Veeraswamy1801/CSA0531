@@ -1,0 +1,8 @@
+DECLARE done INT DEFAULT 0;
+DECLARE sname VARCHAR(50);
+
+DECLARE cur CURSOR FOR SELECT Name FROM Student;
+
+OPEN cur;
+FETCH cur INTO sname;
+CLOSE cur;
