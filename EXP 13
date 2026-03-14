@@ -1,0 +1,8 @@
+CREATE TABLE Student(
+ID INT AUTO_INCREMENT PRIMARY KEY,
+Name VARCHAR(50),
+Marks INT
+);
+
+INSERT INTO Student(Name,Marks)
+VALUES('Ravi',80);
